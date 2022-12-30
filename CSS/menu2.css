@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #333;
+}
+
+.logo img {
+  width: 40px;
+  margin-left: 20px;
+}
+
+.gnb-list {
+  width: 300px;
+  justify-content: space-between;
+  display: flex;
+  margin-right: 40px;
+}
+
+.gnb-item {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 40px;
+}
